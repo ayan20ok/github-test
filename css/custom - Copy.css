@@ -1,0 +1,408 @@
+body{
+
+	padding:0px; 
+	margin:0px;
+	font-family: Arial;
+}
+
+footer{
+
+	background-color: #181818;
+}
+
+hr{
+
+	height:1px;
+	border-width:0;
+	background-color:#A5A5A5;
+}
+h3
+{
+	margin-top:0px;
+}
+
+.blue-hr{
+	height:15px;
+	width:20px;
+	margin-left:0px;
+	background-color: rgb(12,76,164);
+	
+}
+
+.red-hr{
+	height:15px;
+	width:20px;
+	margin-left:0px;
+	background-color:rgb(223,18,52);
+	
+}
+
+.header
+{
+	margin-left: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.btn-holder{
+	width:100%;
+	text-align:center;
+}
+
+.btn-holder a:link, a:visited
+{
+	
+  color:white;
+  padding: 10px 20px;
+  background-color:rgb(223,18,52);
+  text-decoration: none;
+  
+}
+
+.bm-link{
+	
+}
+.share-link{
+	
+}
+
+.bm-link a:link
+{
+  background-image: url("../images/bm.png");
+  width:25px;
+  height:27px;
+  display:block;
+  margin-top:10px;
+  
+}
+
+.bm-link a:active, a:visited
+{
+  background-image: url("../images/bm_active.png");
+  width:25px;
+  height:27px;
+  display:block;
+  
+}
+.share-link a:link
+{
+  background-image: url("../images/share.png");
+  width:25px;
+  height:27px;
+  display:block;
+  margin-top:10px;
+  
+}
+
+
+
+#f-logo
+{
+
+ padding:30px 0 20px 0;
+}
+
+
+
+.logo{
+	text-align: center;
+
+}
+
+.dis-flex{
+
+	display: flex;
+	width:100%;
+
+}
+
+#home-sec{
+
+	flex:35%;
+
+}
+
+#nav-sec{
+
+	flex:45%;
+	text-align: center;
+}
+
+#search-sec{
+
+	flex:30%;
+
+}
+
+.flt-right{
+
+	float: right;
+}
+
+ul.ba {
+    list-style-type: none;
+    display: inline;
+}
+
+ul.ba li {
+    
+    display: inline;
+    padding-right:.5%;
+    border-right:1px solid black;
+
+}
+
+ul.ba li:last-child {
+    
+    display: inline;
+    border: none;
+    
+    
+
+}
+
+#content-sec
+{
+  
+  padding-bottom: 30px;
+
+}
+
+#f-menu-left{
+
+  width:60%;
+  border-right:1px solid lightgrey;
+  margin-bottom: 3%;
+
+}
+
+.f-lmenu-list{
+
+	width:30%;
+}
+
+.f-lmenu-list ul{
+
+	list-style-type: none;
+	color: grey;
+	padding:3px;
+}
+
+.f-lmenu-list li:first-child{
+
+	
+	color: white;
+}
+
+.f-menu-divider{
+
+	border-right:1px solid lightgrey;
+	margin-bottom: 3%;
+}
+
+#f-menu-left-right{
+
+	color: white;
+	width:40%;
+}
+
+#f-menu-left-right-top ul{
+
+	list-style-type: none;
+}
+
+#f-menu-left-right-top li{
+
+	padding-bottom: 3px;
+}
+
+ul.f-menu-icon li{
+
+	list-style-type: none;
+    display: inline;
+    vertical-align: baseline;
+}
+
+ul.f-menu-icon li:first-child{
+
+	
+    vertical-align: super;
+    padding-right:1%;
+}
+
+.copyright{
+
+	background-color: black;
+	height:40px;
+	color:grey;
+	text-align:center;
+	padding-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column-large-l {
+  flex: 35%;
+  max-width: 35%;
+  padding: 0 8px;
+}
+.column-large-r {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 8px;
+}
+
+.column-medium {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 8px;
+}
+
+.column-half {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 8px;
+  display: table;
+  
+}
+
+.column-half p {
+  color:grey;
+}
+
+.icon-btm
+{
+	position: absolute;
+    bottom: 0px;
+	width:100%;
+}
+
+
+
+.column-small {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+}
+
+.column-small img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.small-comp
+{
+	 display: table-cell;
+	 position: relative;
+}
+
+.small-comp > p
+{
+	margin-bottom:0px;
+}
+
+.dis-author
+{
+	display:flex;
+}
+
+.dis-author > p
+{
+	width:90%;
+	
+}
+
+.ad-space
+{
+	text-align: center;
+	width:100%;
+	padding:2% 2% 2% 2%;
+	
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 729px;
+  height: auto;
+}
+
+
+
+@media (max-width: 800px) {
+  .column-small {
+    flex: 50%;
+    max-width: 50%;
+  }
+  
+.column-large-l {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 8px;
+}
+.column-large-r {
+  flex: 100%;
+  max-width: 50%;
+  padding: 20px 8px;
+  margin-left:30%;
+}
+
+.column-medium {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 8px;
+}
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column-small {
+    flex: 100%;
+    max-width: 100%;
+  }
+.column-large-l {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+.column-large-r {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0px 8px;
+  margin-left:0%;
+  
+}
+
+.column-medium {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.column-half {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 8px;
+  display: table;
+  
+}
+.icon-btm
+{
+	position: relative;
+    bottom: 0px;
+	width:100%;
+}
+
+}
